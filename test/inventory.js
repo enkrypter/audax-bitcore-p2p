@@ -4,7 +4,7 @@
 
 var should = require('chai').should();
 
-var bitcore = require('bitcore-lib-mue2');
+var bitcore = require('bitcore-audax-lib');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
 var BufferUtils = bitcore.util.buffer;

@@ -1,25 +1,25 @@
-# Bitcore MUE P2P
+# Bitcore AUDAX P2P
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-p2p.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-p2p)
 [![Build Status](https://img.shields.io/travis/bitpay/bitcore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore-p2p)
 [![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-p2p.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore-p2p?branch=master)
 
-**The peer-to-peer networking protocol for MUE.**
+**The peer-to-peer networking protocol for AUDAX.**
 
-`bitcore-p2p-mue` adds [Bitcore protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Bitcore.
+`bitcore-audax-p2p` adds [Bitcore protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Bitcore.
 
 See [the main bitcore repo](https://github.com/bitpay/bitcore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install bitcore-p2p-mue
+npm install bitcore-audax-p2p
 ```
 
-In order to connect to the Bitcore MUE network, you'll need to know the IP address of at least one node of the network, or use [Pool](./docs/pool.md) to discover peers using a DNS seed.
+In order to connect to the Bitcore AUDAX network, you'll need to know the IP address of at least one node of the network, or use [Pool](./docs/pool.md) to discover peers using a DNS seed.
 
 ```javascript
-var Peer = require('bitcore-p2p-mue').Peer;
+var Peer = require('bitcore-audax-p2p').Peer;
 
 var peer = new Peer({host: '127.0.0.1'});
 

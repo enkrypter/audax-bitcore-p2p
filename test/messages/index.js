@@ -7,7 +7,7 @@ var Buffers = require('buffers');
 var P2P = require('../../');
 var Messages = P2P.Messages;
 var messages = new Messages();
-var bitcore = require('bitcore-lib-mue2');
+var bitcore = require('bitcore-audax-lib');
 var Data = require('../data/messages'); //todo merge with commandData
 var commandData = require('../data/messages.json');
 

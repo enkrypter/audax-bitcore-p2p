@@ -1,4 +1,4 @@
-var bitcore = require('bitcore-lib-mue2');
+var bitcore = require('bitcore-audax-lib');
 bitcore.P2P = require('./lib');
 
 module.exports = bitcore.P2P;

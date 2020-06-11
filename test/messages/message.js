@@ -3,7 +3,7 @@
 var should = require('chai').should();
 var P2P = require('../../');
 var Message = P2P.Messages.Message;
-var Networks = require('bitcore-lib-mue2').Networks;
+var Networks = require('bitcore-audax-lib').Networks;
 
 describe('Message', function() {
 
