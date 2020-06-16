@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-audax2-p2p",
+  "name": "audax-bitcore-p2p",
   "version": "8.3.0",
   "description": "Interface to the bitcoin P2P network for bitcore",
   "author": "BitPay <dev@bitpay.com>",
