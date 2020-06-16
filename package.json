@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-audax-p2p",
+  "name": "bitcore-audax2-p2p",
   "version": "8.3.0",
   "description": "Interface to the bitcoin P2P network for bitcore",
   "author": "BitPay <dev@bitpay.com>",
@@ -23,7 +23,7 @@
     "bitcore-lib": "^8.3.0",
     "bitcore-audax-lib": "^8.3.0",
     "bloom-filter": "^0.2.0",
-    "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
+    "buffers": "git+https://github.com/bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
@@ -33,5 +33,13 @@
     "gulp": "^4.0.0",
     "sinon": "^1.12.2"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitpay/bitcore-p2p/issues"
+  },
+  "homepage": "https://github.com/bitpay/bitcore-p2p",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  }
 }

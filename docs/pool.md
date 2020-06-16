@@ -6,7 +6,7 @@ The quickest way to get connected is to run the following:
 
 ```javascript
 
-var Pool = require('bitcore-audax-p2p').Pool;
+var Pool = require('bitcore-audax2-p2p').Pool;
 var Networks = require('bitcore-audax-lib').Networks;
 
 var pool = new Pool({network: Networks.livenet});
